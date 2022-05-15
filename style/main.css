@@ -1,21 +1,33 @@
 :root{
   --vermelho: #e50914;
   --preta: #141414;
+  --white-lite: #dadada;
 }
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
-.body{
-   background: var(--preta);
-   font-family:'Times New Roman', Times, serif;
-
+body{
+  color: var(--white-lite);
+  background-color: var(--preta);  
+  font-family:'Times New Roman', Times, serif;
 }
 
 header.logo{
-    color: var(--vermelho);
+  color: var(--vermelho);
+}
+
+nav{
+  padding: 10px 18px;  
+}
+a{
+  border-radius: 6px;
+  padding: 3px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--vermelho);
+  text-decoration: none;
+  background-color: var(--white-lite);
+  margin-left: 10px;
 }
